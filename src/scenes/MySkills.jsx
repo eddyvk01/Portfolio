@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="about" className="pt-10 pb-24">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
@@ -20,10 +20,10 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+             <span className="text-red">ABOUT</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">
+          <p className="mt-10 mb-7 hover:scale-110 transition duration-500">
             I'm Full Stack Developer specializing in building (and occasionally designing) exceptional digital experiencs .Currently,I'm focused on building responsive full-stack web applications.
           </p>
         </motion.div>
@@ -69,7 +69,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 hover:scale-110 transition duration-500">
             I have a strong foundation in Web Development, I honed my skills in Full-Stack development and algorithms. I have experience creating CRUD applications and demonstrated my ability to handle complex projects. I'm well-versed in Django framework technology, REST-API, and frontend development with ReactJS.
           </p>
         </motion.div>
@@ -95,7 +95,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 hover:scale-110 transition duration-500">
             I'm a programming enthusiast with a knack for problem-solving and an analytical approach to things. I'm versatility allows me to learn and adapt quickly to new projects, and I'm always looking to improve my skills.
           </p>
         </motion.div>
@@ -120,7 +120,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 hover:scale-110 transition duration-500">
             I have passion for exploring new areas of development and my natural ability to approach problems creatively. My imaginative thinking and problem-solving skills bring fresh ideas and perspectives to any company          </p>
         </motion.div>
       </div>

@@ -19,7 +19,7 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+              className="hover:scale-110 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
               src="assets/profile-photo.png"
             />
           </div>
@@ -33,7 +33,7 @@ const Landing = ({ setSelectedPage }) => {
       </div>
 
       {/* MAIN TEXT */}
-      <div className="z-30 basis-2/5 mt-12 md:mt-32">
+      <div className="z-30 basis-2/5 mt-12 md:mt-32 hover:scale-110 transition duration-500">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
