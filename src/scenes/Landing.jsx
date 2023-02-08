@@ -19,7 +19,7 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:scale-110 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+              className="hover:scale-110 transition duration-500 z-10 w-full max-w-[200px] md:max-w-[400px]"
               src="assets/profile-photo.png"
             />
           </div>
@@ -56,7 +56,8 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            I'm a Full Stack Developer and I'm very passionate and dedicated to my work.
+            {/* I'm a Full Stack Developer and I'm very passionate and dedicated to my work. */}
+            I'm <strong>Full Stack Developer</strong> and passionate about problem-solving and enhancing my skills and exploring new technologies.
 
           </p>
         </motion.div>

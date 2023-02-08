@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="about" className="pt-10 pb-24">
+    <div id="about" className="border-solid border-5 border-white w-full h-full pt-32 pb-16 my-10">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
           className="md:w-1/3"
           initial="hidden"
-          whileInView="visible"
+          whileInView="visible"ṭ
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
           variants={{
@@ -24,7 +24,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 hover:scale-110 transition duration-500">
-            I'm Full Stack Developer specializing in building (and occasionally designing) exceptional digital experiencs .Currently,I'm focused on building responsive full-stack web applications.
+            I'm an ambitious student pursuing B.Tech from <strong>IIT Roorkee</strong>. I'm Full Stack Developer specializing in building (and occasionally designing) exceptional digital experiences and I'm a programming enthusiast with a passion for problem-solving and an analytical approach .Currently,I'm focused on building responsive full-stack web applications.
           </p>
         </motion.div>
 
@@ -124,7 +124,7 @@ const MySkills = () => {
             I have passion for exploring new areas of development and my natural ability to approach problems creatively. My imaginative thinking and problem-solving skills bring fresh ideas and perspectives to any company          </p>
         </motion.div>
       </div>
-    </section>
+    </div>
   );
 };
 

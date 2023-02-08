@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact py-48">
+    <section id="contact" className="contact py-48 my-30">
       {/* HEADINGS */}
       <motion.div
         initial="hidden"
@@ -54,7 +54,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contact-image.jpeg" alt="contact" />
+          <img  className=" max-w-[300px] md:max-w-[400px]" src="../assets/contact-image.jpeg" alt="contact" />
         </motion.div>
 
         <motion.div

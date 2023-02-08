@@ -16,7 +16,7 @@ const projectVariant = {
 };
 
 const Project = ({ title ,subtitle, github ,live}) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+  const overlayStyles = `absolute shadow-md shadow-[#040c16] h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
@@ -53,7 +53,7 @@ const Project = ({ title ,subtitle, github ,live}) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="projects" className="pt-48 pb-48 my-60">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"
@@ -80,7 +80,7 @@ const Projects = () => {
       </motion.div>
 
       {/* PROJECTS */}
-      <div className="flex justify-center">
+      <div className="flex justify-center shadow-md shadow-[#040c16]">
         <motion.div
           className="sm:grid sm:grid-cols-3"
           variants={container}
