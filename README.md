@@ -1,6 +1,6 @@
 # Portfolio ![python License](https://img.shields.io/badge/MADE%20WITH-ReactJS-blue.svg)
 
-A simple portfolio which describe about myself, build with ReactJS, Tailwind CSS and framer motion
+A simple portfolio which describe about myself, build with using ReactJS, Tailwind CSS and framer motion
 
 live Link: https://portfolio-eddyvk01.vercel.app/
 
