@@ -70,7 +70,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 hover:scale-110 transition duration-500">
-            I have a strong foundation in Web Development, I honed my skills in Full-Stack development and algorithms. I have experience creating CRUD applications and demonstrated my ability to handle complex projects. I'm well-versed in Django framework technology, REST-API, and frontend development with ReactJS.
+            I have a strong foundation in Web Development, I honed my skills in Full-Stack development and algorithms. I have demonstrated my ability to handle complex projects. I'm well-versed in Django framework technology, REST-API, and frontend development with ReactJS.
           </p>
         </motion.div>
 

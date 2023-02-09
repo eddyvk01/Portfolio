@@ -17,7 +17,7 @@ import django from '../assets/django.png';
 
 const Skills = () => {
   return (
-    <div id='skills' className='text-gray-300 pt-80 pb-80 '>
+    <div id='skills' className='text-gray-300 pt-80 pb-80 mt-8'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className="md:flex md:justify-between md:gap-16 mt-32">
